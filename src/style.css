@@ -1,0 +1,55 @@
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin: 0px;
+  padding: 0px;
+}
+.all-contacts li {
+  background: #211d57;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+}
+ul {
+  padding: 0px;
+}
+.all-contacts li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.all-contacts p {
+  margin: 0px;
+}
+nav ul li a {
+  text-decoration: none;
+  background: #211d57;
+  padding: 10px;
+  color: white;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin-bottom: 10PX;
+  margin-top: 20px;
+}
+.add-contact button {
+  background: #211d57;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.all-contacts li button {
+  background: white;
+  color: black;
+  padding: 12px 18px;
+  text-transform: uppercase;
+}
